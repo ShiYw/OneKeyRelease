@@ -3,7 +3,6 @@
 #include <iostream>
 #include <QStringList>
 #include <QString>
-#include <QDebug>
 QString runcmd(const QString& cmd){
 
     QProcess p(0);
