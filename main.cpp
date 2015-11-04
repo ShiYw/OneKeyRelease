@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
         int left = list[i].indexOf('>');
         int right = list[i].indexOf('(');
         QString path = list[i].mid(left+1,right - left - 2);
-        std::cout<<"cp " <<path.toStdString() <<"  " <<*argv[2]<<std::endl;
+        std::cout<<"cp " <<path.toStdString() <<"  " <<argv[2]<<std::endl;
         runcmd("cp " + path +"  " + QString(argv[2]));
     }
     std::cout<<"Done. copyed "<<list.size() - 1<<" in all.\n";
