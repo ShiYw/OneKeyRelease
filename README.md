@@ -3,9 +3,11 @@
 ## Description
 This tool simply gets all the .so libs.
 year, just ldd and cp.
-It's just for Linux.
+It's written with Qt and just for Linux.
+
 
 自动复制动态链接库的小工具，适用于Linux。
+使用qt编写，编译需要Qt和gcc。
 
 ## License
 MIT Lisense
